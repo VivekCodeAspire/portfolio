@@ -1,5 +1,4 @@
-import './App.css'
-import { useState } from "react"
+import './App.css' 
 import { github, peerlist, twitter, linkedIn } from "./index"
 
 
