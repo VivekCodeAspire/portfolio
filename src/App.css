@@ -18,5 +18,14 @@
 .container {
 	/* min-width: 100vw; */
 	min-height: 100vh;
-	
+}
+.text-gradient-right {
+	background: linear-gradient(to right, #ff5733, #ffffff, #ff5733);
+	-webkit-background-clip: text;
+	color: transparent;
+}
+.text-gradient-left {
+	background: linear-gradient(to right, #ffffff, #ff5733);
+	-webkit-background-clip: text;
+	color: transparent;
 }
