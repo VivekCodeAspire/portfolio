@@ -1,5 +1,5 @@
 import './App.css'
-import { github, peerlist, linkedIn, twitter, linkedIn_orange, twitter_orange, peerlist_orange } from "./index"
+import { github, peerlist, linkedIn, twitter } from "./index"
 
 
 function App() {
@@ -19,12 +19,12 @@ function App() {
 
   return (
     <>
-      <div className="w-screen h-screen bg-custom bg-cover bg-center bg-fixed bg-no-repeat  overflow-hidden flex flex-col">
+      <div className="w-screen h-screen bg-custom bg-cover bg-center bg-fixed bg-no-repeat  overflow-hidden overscroll-none flex flex-col">
         {/* displayTime */}
         <div className='self-end px-7 py-4 sm:px-5 sm:text-2xl font-light w-full h-24 z-10 flex flex-col text-right text-xl'>{displayDate} <br className='text-xl' /> {hours + ":" + minutes + " " + meridiem} IST</div>
 
         {/* main container */}
-        <div className=' w-full h-full m-auto flex flex-col gap-5 items-center  justify-center -z-1'>
+        <div className=' w-full h-full sm:-my-24 m-auto flex flex-col gap-5 items-center  justify-center -z-1'>
           {/* profile image*/}
           <div className={` min-w-40 min-h-40 bg-profile bg-cover bg-no-repeat rounded-full bg-center`} />
 
@@ -43,7 +43,7 @@ function App() {
           <div className='flex gap-6'>
 
             <a className={`h-16 w-16 rounded-full opacity-${opacity_icons} hover:opacity-100`} href="https://peerlist.io/tabish" target="_blank">
-              <img className="w-full h-full rounded-full" src={peerlist_orange} alt="" />
+              <img className="w-full h-full rounded-full" src={peerlist} alt="" />
             </a>
 
 
@@ -52,11 +52,11 @@ function App() {
             </a>
 
             <a className={`h-16 w-16 rounded-full opacity-${opacity_icons}  hover:opacity-100`} href="https://twitter.com/papayafruit123" target="_blank" >
-              <img className="w-full h-full rounded-full" src={twitter_orange} alt="" />
+              <img className="w-full h-full rounded-full" src={twitter} alt="" />
             </a>
 
             <a className={`h-16 w-16 rounded-full opacity-${opacity_icons}  hover:opacity-100`} href="https://www.linkedin.com/in/m-tabishk/" target="_blank" >
-              <img className="w-full h-full rounded-full" src={linkedIn_orange} alt="" />
+              <img className="w-full h-full rounded-full" src={linkedIn} alt="" />
             </a>
 
           </div>
