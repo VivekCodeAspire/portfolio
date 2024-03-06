@@ -6,23 +6,12 @@ function App() {
 
 
   const opacity_icons = 100;
-  const date = new Date();
-  const time = date.toString().split(" ");
-  const displayDate = time[2] + " " + time[1] + " " + " " + time[3];
-  const displayTime = time[4].split(":");
-  let meridiem = "am";
-
-  let [hours, minutes] = displayTime;
-  if (hours > 12) { meridiem = "pm"; }
-  hours = hours > 12 ? hours - 12 : hours == 0 ? 12 : hours;
 
 
   return (
     <>
-      <div className="w-screen h-screen bg-custom bg-cover bg-center bg-fixed bg-no-repeat  overflow-hidden overscroll-none flex flex-col">
-        {/* displayTime */}
-        <div className='self-end px-7 py-4 sm:px-5 sm:text-2xl font-light w-full h-24 z-10 flex flex-col text-right text-xl'>{displayDate} <br className='text-xl' /> {hours + ":" + minutes + " " + meridiem} IST</div>
-
+      <div className="w-screen h-screen bg-custom bg-cover bg-center bg-fixed bg-no-repeat overscroll-none flex flex-col">
+      
         {/* main container */}
         <div className=' w-full h-full sm:-my-24 m-auto flex flex-col gap-5 items-center  justify-center -z-1'>
           {/* profile image*/}
