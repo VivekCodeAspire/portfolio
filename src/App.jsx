@@ -49,7 +49,7 @@ function App() {
             </a>
 
           </div>
-          <p>Note: For UI designs kindly checkout this folder in the github repo:- <a  href="https://github.com/m-tabish/portfolio/tree/main/src/design">Click Here</a></p>
+          <p>Note: For UI designs kindly checkout this folder in the github repo:- <a  href="https://github.com/m-tabish/portfolio/tree/main/src/design" target='_blank'>Click Here</a></p>
         </div>
       </div>
     </>
