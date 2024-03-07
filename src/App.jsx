@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <div className="w-screen h-screen flex flex-col bg-custom bg-cover bg-center bg-fixed bg-no-repeat justify-center  ">
-      
+
         {/* main container */}
         <div className=' w-full h-full sm:-my-24 m-auto flex flex-col gap-5 items-center  justify-center -z-1'>
           {/* profile image*/}
@@ -49,6 +49,7 @@ function App() {
             </a>
 
           </div>
+          <p>Note: For UI designs kindly checkout this folder in the github repo:- <a  href="https://github.com/m-tabish/portfolio/tree/main/src/design">Click Here</a></p>
         </div>
       </div>
     </>
