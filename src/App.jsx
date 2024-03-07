@@ -1,4 +1,5 @@
 import './App.css';
+<<<<<<< HEAD
 import { github, linkedIn, peerlist, twitter } from "./index";
 
 
@@ -52,6 +53,14 @@ function App() {
           <p>Note: For UI designs kindly checkout this folder in the github repo:- <a  href="https://github.com/m-tabish/portfolio/tree/main/src/design" target='_blank'>Click Here</a></p>
         </div>
       </div>
+=======
+import {Home} from "./pages/pagesExport"
+function App() {
+
+  return (
+    <>
+      <Home />
+>>>>>>> feature
     </>
   )
 }
