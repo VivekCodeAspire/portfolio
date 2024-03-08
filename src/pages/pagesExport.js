@@ -1,5 +1,5 @@
 
-import Home from "./Home"
 import Projects from "./Projects"
-export { Home,   Projects }
+import Home from "./src/pages/Home"
+export { Home, Projects }
 
