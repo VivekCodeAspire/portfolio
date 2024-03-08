@@ -4,7 +4,7 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import { Home } from "./pages/pagesExport.js";
+import { HomePage } from "./pages/pagesExport.js";
 import Soon from "./routes/soon"
 import ErrorPage from "./error-page.jsx";
 import './index.css'
@@ -12,7 +12,7 @@ import './index.css'
 const router = createBrowserRouter([
   {
     path: "/portfolio",
-    element: <Home />,
+    element: <HomePage />,
     errorElement: <ErrorPage />
   },
   {

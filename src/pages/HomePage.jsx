@@ -2,7 +2,7 @@ import { Navbar, SocialLink, links } from "../Components/exportComp";
 import { github, linkedIn, peerlist, twitter } from "../imagesExport";
 
 
-function Home() {
+function HomePage() {
 
     return (
         <>
@@ -42,4 +42,4 @@ function Home() {
     )
 }
 
-export default Home
+export default HomePage
