@@ -1,4 +1,4 @@
-import { Navbar } from "../Components/exportComp" 
+import { Navbar } from "../Components/exportComp.js" 
 const Projects = () => {
     return (
         <>
