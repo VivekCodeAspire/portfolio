@@ -1,6 +1,5 @@
-import { Navbar, SocialLink, links } from "../Components/exportComp.js";
+import {SocialLink,Navbar,links} from "../components/exportComp"
 import { github, linkedIn, peerlist, twitter } from "../imagesExport";
-
 
 function HomePage() {
 
