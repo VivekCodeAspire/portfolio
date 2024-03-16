@@ -1,6 +1,6 @@
+import React,{useState} from "react";
 import './App.css';
-
-import { Home } from "./pages/pagesExport"
+import { Home } from "./pages/pagesExport";
 function App() {
 
   return (
